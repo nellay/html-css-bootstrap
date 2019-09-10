@@ -1,0 +1,36 @@
+*{
+   background-color: white;
+   box-sizing: border-box;
+}
+
+#vino{
+   
+    grid-column: initial;
+    padding: 0%;
+    border: 0%;
+    width: 10em;
+}
+.container{
+background-color: rgba(0, 0, 0, 0.007);
+margin: 0%;
+width: 100%;
+}
+
+#texto{
+    background-color: white;
+    z-index: 3;
+    position: relative;
+    left: 20%;
+    top: 10%;
+    bottom:-150px;
+    width: 800px;
+    height:400px;
+    
+}
+#flores{
+    position: relative;
+    left: 30%;
+    bottom: 70px;
+    size: 50%;
+
+}

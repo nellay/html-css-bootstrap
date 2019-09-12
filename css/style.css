@@ -1,36 +1,130 @@
 *{
-   background-color: white;
-   box-sizing: border-box;
-}
+    background-color: rgb(231, 228, 228);
+    box-sizing: border-box;
+ }
+ 
+ #vino{
 
-#vino{
-   
+     grid-column: initial;
+     padding: 0%;
+     border: 0%;
+     width: 10em;
+ }
+ 
+ #texto{
+ 
+     background-color: white;
+     box-shadow: 2px 2px 10px rgb(161, 161, 161); 
+     z-index: 3;
+     position: relative;
+     left: 20%;
+     top: 250px;
+     width: 40%;
+     height: 40%;
+     text-align: left;
+     padding: 2%;
+ }
+ 
+ #flores{
+ 
+     position: relative;
+     left: 30%;
+     bottom: 70px;
+     size: 50%;
+ 
+ }
+ 
+ #logo{
+ 
+     width: 15%;
+     height: 25%;
+     left: 90.5%;
+     position: relative;
+     bottom:229.5px;
+     background-color: #1A2332;
+ }
+ 
+ #contenedor{
+ 
+     margin: 0%;
+     padding: 0%;
+ }
+ 
+ p{
+     align-self: auto;
+     background-color: transparent;
+     font-family: 'Vidaloka', serif;
+     font-size: 14px;
+ }
+
+ h1{
+    font-family: 'Playfair Display SC', serif;
+    background-color: rgb(255, 255, 255);
+ }
+
+ a{
+    font-family: 'Spectral', serif;
+ }
+
+ #vino2{
+
     grid-column: initial;
     padding: 0%;
     border: 0%;
     width: 10em;
 }
-.container{
-background-color: rgba(0, 0, 0, 0.007);
-margin: 0%;
-width: 100%;
-}
 
-#texto{
+#texto2{
+
     background-color: white;
+    box-shadow: 2px 2px 10px rgb(161, 161, 161); 
     z-index: 3;
     position: relative;
-    left: 20%;
-    top: 10%;
-    bottom:-150px;
-    width: 800px;
-    height:400px;
-    
+    left: 45%;
+    top: 250px;
+    width: 40%;
+    height: 40%;
+    text-align: left;
+    padding: 2%;
 }
-#flores{
-    position: relative;
-    left: 30%;
-    bottom: 70px;
-    size: 50%;
 
+#flores2{
+
+    position: relative;
+    left: 20%;
+    bottom: 70px;
+    size: 30%;
+
+}
+
+#logo2{
+
+    width: 15%;
+    height: 25%;
+    left: 90.5%;
+    position: relative;
+    bottom:229.5px;
+    background-color: #1A2332;
+}
+
+#contenedor{
+
+    margin: 0%;
+    padding: 0%;
+}
+
+p{
+    align-self: auto;
+    background-color: transparent;
+    font-family: 'Vidaloka', serif;
+    font-size: 14px;
+}
+
+h1{
+   font-family: 'Playfair Display SC', serif;
+   background-color: rgb(255, 255, 255);
+}
+
+a{
+   font-family: 'Spectral', serif;
 }
